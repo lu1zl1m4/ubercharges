@@ -1,0 +1,63 @@
+<meta charset="utf-8">
+<header>
+    <img src="{{ url_for('static', filename='logooficial1.png') }}" class="cabeçalho" alt="Logo übercharges">
+</header>
+>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bonito3.css') }}">">
+
+<div id="container">
+    <div class="row">
+        <div class="column-3 column label">
+            <label for="txtLogon">Motorista</label>
+        </div>
+        <div class="column-9 column input">
+            <input type="text" id="txtLogon" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="column-3 column label">
+            <label for="txtPassword">Valor</label>
+        </div>
+        <div class="column-9 column input">
+            <input id="valor" type="number" name="senha" placeholder="Digite o valor da carga">
+        </div>
+    </div>
+    <div class="row">
+
+    </div>
+    <div class="row">
+        <div class="column-4 column label">
+            <label for="txtPassword">Custo de Combustivel</label>
+        </div>
+        <div class="column-10 column input">
+            <input id="valor" type="number" name="senha" placeholder="Digite o valor da carga">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column-3 column label">
+            <label for="txtPassword">Pedágio</label>
+        </div>
+        <div class="column-9 column input">
+            <input id="valor" type="number" name="senha" placeholder="Digite o valor da carga">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column-3 column label">
+            <label for="txtPassword">% de Lucro</label>
+        </div>
+        <div class="column-9 column input">
+            <input id="valor" type="number" name="senha" placeholder="Digite o valor da carga">
+        </div>
+    </div>
+    <div class="column-1 ">
+        <br><br><br><input type="checkbox">Tem certeza ? <br/><br>
+    </div>
+
+
+</div>
+<div class="bot">
+    <input class="botao" id="botao botãologuin" type="submit" name="button" value="Aceitar">
+</div>
+<div class="bot1">
+    <input class="botao" id=" botãocadastrar" type="submit" name="button" value="Voltar">
+</div>

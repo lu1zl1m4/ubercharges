@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Balanço de Gastos</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bonito.css') }}">">
+</head>
+
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='logooficial1.png') }}" class="cabeçalho" alt="Logo übercharges">
+    </header>
+    <main>
+        <audio src="somDeCaminhao.mp3" preload="auto" autoplay="auto">Seu browser não suporta áudio.</audio>
+        <form action="/" method="POST">
+            <section>
+                <h1>
+                    <style type="text/css">
+                        h1 {
+                            color: white;
+                            font-family: Georgia, 'Times New Roman', Times, serif;
+                        }
+                    </style>
+                    <h1>BALANÇO</h1>
+                    <div>
+                        <input class="botao" id="botaoMensal" type="submit" name="Bmensal" value="Mensal">
+                        <h6> <input class="botao" id="botaoAnual" type="submit" name="Banual" value="Anual">
+                            <h6> <input class="botao" id="botaoGMotorista" type="submit" name="Gmotorista" value="Gastos com Motorista ">
+                                <h6> <input class="botao" id="botaoPdfDetalhado" type="submit" name="Bpdf" value="PDF Detalhado">
+                                    <h6><input class="botao" id="botaoBvoltar" type="submit" name="voltar" value="voltar">
+
+                    </div>
+            </section>
+        </form>
+        </section>
+    </main>
+    <div>
+    </div>
+</body>
+
+</html>
