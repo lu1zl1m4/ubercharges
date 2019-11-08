@@ -1,0 +1,38 @@
+<head>
+    <meta charset="utf-8">
+    <title>Übercharges</title>
+</head>
+
+<header>
+    <img src="{{ url_for('static', filename='logooficial1.png') }}" class="cabeçalho" alt="Logo übercharges">
+</header>
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bonito2.css') }}">
+<form action="/login" method="POST">
+    <div id="container">
+        <div class="row">
+            <div class="column-3 column label">
+                <label for="txtLogon">Login</label>
+            </div>
+            <div class="column-9 column input">
+                <input type="text" id="txtLogon" name="cpf" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="column-3 column label">
+                <label for="txtPassword">Senha</label>
+            </div>
+            <div class="column-9 column input">
+                <input type="password" id="txtPassword" name="senha" />
+            </div>
+        </div>
+        <div class="bot">
+            <input class="botao" id="botaologin" type="submit" name="button" value="Login">
+        </div>
+        <div class="bot1">
+            <input class="botao" id="botaocadastrar" type="submit" name="button" value="Cadastrar">
+        </div>
+        <class="bot2">
+            <input class="botao" id="botaoredefinirsenha" type="submit" name="button" value="Redefinir Senha">
+    </div>
+</form>

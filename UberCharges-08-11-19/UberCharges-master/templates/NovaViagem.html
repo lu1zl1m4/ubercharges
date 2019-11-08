@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Nova Viagem</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bonito.css') }}">">
+</head>
+
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='logooficial1.png') }}" class="cabeçalho" alt="Logo übercharges">
+    </header>
+    <main>
+        <br><br>
+        <form action="/Nviagem" method="POST">
+            <section>
+                <label for="cliente">Cliente:</label>
+                <input id="cliente" type="text" name="cliente" placeholder="Digite o nome do cliente"> <br><br>
+                <label for="Nmot ">Nome do Motorista:</label>
+                <input id="Nmot " type="text" name="Nmotorista" placeholder="Digite o nome do Motorista"> <br><br>
+                <label for="i">Local de Partida:<label> 
+                <input id="i" type="text" name="LPartida" placeholder="Digite o Local de Partida"> <br> <br>
+                <label for="i">Local de Destino:<label> 
+                <input id="i" type="text" name="LDestino" placeholder="Digite o Local de Destino"> <br> <br>
+                <input class="botao" id="botaovoltar" type="submit" name="button" value="Continuar">
+                <input  class="botao" id="botaovoltar" type="submit" name="button" value="Voltar">
+            </section>
+        </form>
+        </section>
+    </main>
+</body>
+
+</html>

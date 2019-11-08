@@ -1,0 +1,149 @@
+header {
+    background: yellow;
+    animation-name: animation;
+    /*aqui vem o nome da animação*/
+    animation-duration: 5s;
+    /*tempo da duração do inicio ao fim*/
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    0% {
+        background-color: rgba(255, 255, 0, 0.952);
+        /*a animação começa amarelo*/
+    }
+    50% {
+        background-color: rgba(255, 255, 0, 0.486);
+        /*a animação chega na metade em amarela*/
+    }
+    100% {
+        background-color: rgba(255, 255, 0, 0.952);
+        /*a animação termina vermelha novamente*/
+    }
+}
+
+.cabeçalho {
+    padding: 10px 40px;
+    margin: 5px 5px;
+}
+
+body {
+    background: black;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    background: rgba(255, 255, 0, 0.849);
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 360px;
+    height: 110px;
+    margin: auto;
+    box-shadow: 0px 0px 10px white;
+    padding: 10px;
+    box-sizing: border-box;
+    animation-name: animation;
+    /*aqui vem o nome da animação*/
+    animation-duration: 9s;
+    /*tempo da duração do inicio ao fim*/
+    animation-iteration-count: infinite;
+}
+
+.row {
+    clear: both;
+    ;
+}
+
+.column-3 {
+    width: 25%;
+}
+
+.column-9 {
+    width: 75%;
+}
+
+.label {
+    padding-top: 7px;
+    text-align: right;
+    /*color: white;*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.label:after {
+    content: ':';
+    padding-right: 5px;
+}
+
+.column {
+    float: left;
+    height: 41px;
+}
+
+.input input {
+    width: 100%;
+    height: 34px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.botao {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#botaologin {
+    position: absolute;
+    /*color: white; /*cor da fonte */
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+#botaocadastrar {
+    position: fixed center;
+    /*color: white; /*cor da fonte */
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.bot {
+    position: absolute;
+    top: 200px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 370px;
+    height: 40px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.bot1 {
+    position: absolute;
+    top: 200px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 20px;
+    height: 40px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background: yellow;
+}

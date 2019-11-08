@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Pagina Principal</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bonito.css') }}">
+</head>
+
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='logooficial1.png') }}" class="cabeçalho" alt="Logo übercharges">
+    </header>
+    <main>
+        <audio src="somDeCaminhao.mp3" preload="auto" autoplay="auto">Seu browser não suporta áudio.</audio>
+        <form action="/principal" method="POST">
+            <section>
+                <div>
+                    <input class="botao" id="botaoNovoMotorista" type="submit" name="button" value="Novo Motorista">
+                    <h6> <input class="botao" id="botaoNovaviagem" type="submit" name="button" value="Nova Viagem">
+                        <h6> <input class="botao" id="botaoGastosExtras" type="submit" name="button" value="Inserir Gastos Extras">
+                            <h6> <input class="botao" id="botaoPagarMotorista" type="submit" name="button" value="Pagar Motorista">
+                                <h6><input class="botao" id="botaoBalanco" type="submit" name="button" value="Balanço">
+                                    <h6><input class="botao" id="botaoLogout" type="submit" name="button" value="Logout">
+                </div>
+            </section>
+        </form>
+        </section>
+    </main>
+    <div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Gastos Extras</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bonito.css') }}">">
+</head>
+
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='logooficial1.png') }}" class="cabeçalho" alt="Logo übercharges">
+    </header>
+    <main>
+        <br><br>
+        <form action="/Extras" method="post">
+            <section>
+                &emsp;<label for="tipo">Tipo de Gasto:</label>
+                <input id="tipo" type="text" name="tipo_carga" placeholder="Digite o tipo de gasto"> <br><br>
+                <label for="valor">Valor:</label>
+                <input id="valor" type="text" name="valor" placeholder="Digite o valor da carga"> <br><br>
+                <label for="ob">Obs:<label>
+                <textarea id="ob" name="tex" cols="30" rows="5"></textarea><br>
+                <br><input class="botao" id="botaovoltar" type="submit" name="button" value="Salvar">
+                <input class="botao" id="botaovoltar" type="submit" name="button" value="Voltar">
+            </section>
+        </form>
+        </section>
+    </main>
+</body>
+
+</html>

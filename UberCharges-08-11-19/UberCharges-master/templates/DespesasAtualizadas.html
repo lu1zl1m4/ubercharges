@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Despesas Atualizadas</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bonito.css') }}">">
+</head>
+
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='logooficial1.png') }}" class="cabeçalho" alt="Logo übercharges">
+    </header>
+    <main>
+        <form action="/PaginaPrincipal" method="POST">
+            <section>
+                <h1>
+                    <style type="text/css">
+                        h1 {
+                            color: white;
+                        }
+                    </style>
+                    <h1>Despesas atualizadas!</h1>
+                    <input class="botao" id="botaovoltar" type="submit" name="button" value="Voltar">
+            </section>
+        </form>
+        </section>
+    </main>
+    <div>
+    </div>
+</body>
+
+</html>

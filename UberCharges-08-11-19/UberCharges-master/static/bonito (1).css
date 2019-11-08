@@ -1,0 +1,137 @@
+body {
+    background-color: black;
+}
+
+header {
+    background: yellow;
+    animation-name: animation;
+    /*aqui vem o nome da animação*/
+    animation-duration: 9s;
+    /*tempo da duração do inicio ao fim*/
+    animation-iteration-count: infinite;
+    padding: 25px;
+}
+
+section {
+    color: yellow;
+    width: 400px;
+    height: 20px;
+    position: relative;
+    top: 1px;
+    left: 500 px;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+}
+
+cabeçalho {
+    padding: 10px 15px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.botao {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#botãologuin {
+    position: fixed center;
+    /*color: white; /*cor da fonte */
+    padding: 10px 40px;
+}
+
+#botãocadastrar {
+    position: fixed center;
+    /*color: white; /*cor da fonte */
+    padding: 10px 30px;
+    border-radius: 10px;
+    /* animation-name: animation;
+/*aqui vem o nome da animação*/
+    /*animation-duration: 10s;
+/*tempo da duração do inicio ao fim*/
+    /*animation-iteration-count: infinite; **/
+}
+
+input[type=submit]:hover {
+    background: yellow;
+}
+
+@keyframes animation {
+    0% {
+        background-color: yellow;
+        /*a animação começa amarelo*/
+    }
+    50% {
+        background-color: rgba(255, 255, 0, 0.486);
+        /*a animação chega na metade em amarela*/
+    }
+    100% {
+        background-color: yellow;
+        /*a animação termina vermelha novamente*/
+    }
+}
+
+#botaovoltar {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    /*cor da fonte */
+    padding: 10px 30px;
+}
+
+div {
+    margin: auto;
+    background: black;
+    padding-top: 10px;
+    ;
+}
+
+#botaoNovoMotorista {
+    padding: 10px 50px;
+}
+
+#botaoNovaviagem {
+    padding: 10px 65px;
+}
+
+#botaoGastosExtras {
+    padding: 10px 14px;
+}
+
+#botaoPagarMotorista {
+    padding: 10px 45px;
+}
+
+#botaoBalanco {
+    padding: 10px 100px;
+}
+
+#botaoLogout {
+    padding: 10px 105px;
+}
+
+#botaoMensal {
+    padding: 10px 105px;
+}
+
+#botaoAnual {
+    padding: 10px 115px;
+}
+
+#botaoGMotorista {
+    padding: 10px 12px;
+}
+
+#botaoPdfDetalhado {
+    padding: 10px 57px;
+}
+
+#botaoBvoltar {
+    padding: 10px 117px;
+}

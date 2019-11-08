@@ -1,0 +1,43 @@
+<head>
+    <meta charset="utf-8">
+    <title>Redefinir Senha</title>
+</head>
+
+<header>
+    <img src="{{ url_for('static', filename='logooficial1.png') }}" class="cabeçalho" alt="Logo übercharges">
+</header>
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bonito3.css') }}">
+<form action="/redefinir_senha" method="POST">
+    <div id="container">
+        <div class="row">
+            <div class="column-3 column label">
+                <label for="txtLogon">CPF</label>
+            </div>
+            <div class="column-9 column input">
+                <input type="text" id="txtLogon" name="cpf" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="column-3 column label">
+                <label for="txtLogon">Nome</label>
+            </div>
+            <div class="column-9 column input">
+                <input type="text" id="txtLogon" name="Nome" />
+            </div>
+        <div class="row">
+            <div class="column-3 column label">
+                <label for="txtLogon">Nova Senha</label>
+            </div>
+            <div class="column-9 column input">
+                <input type="text" id="txtLogon" name="NovaSenha" />
+                </div>
+        </div>
+        <div class="bot">
+            <input class="botao" id="botaoseguinte" type="submit" name="button" value="Seguinte">
+        </div>
+        <div class="bot1">
+            <input class="botao" id="botaovoltar" type="submit" name="button" value="Voltar">
+        </div>
+    </div>
+</form>
